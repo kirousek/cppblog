@@ -1,18 +1,26 @@
-var body = document.body;
-var btn = document.getElementById("modebut");
-var browserColorScheme = window.matchMedia("(prefers-color-scheme: dark)");
+const toggleSwitch = document.getElementById("checkbox");
+const currentTheme = sessionStorage.getItem("theme");
+const browserTheme = window.matchMedia("(prefers-color-scheme: dark)");
 
-btn.addEventListener("click", () => {
-  body.classList.toggle("dark-mode");
+if (currentTheme) {
+  document.documentElement.setAttribute("color-theme", currentTheme);
 
-  if (btn.textContent === "Dark Mode") {
-    btn.textContent = "Light Mode";
-  } else {
-    btn.textContent = "Dark Mode";
+  if (currentTheme === "dark") {
+    toggleSwitch.checked = true;
   }
-});
-
-if (browserColorScheme.matches) {
-  body.classList.toggle("dark-mode");
-  btn.textContent = "Light Mode";
+} else if (browserTheme.matches) {
+  document.documentElement.setAttribute("color-theme", "dark");
+  toggleSwitch.checked = true;
 }
+
+function switchTheme(event) {
+  if (event.target.checked) {
+    document.documentElement.setAttribute("color-theme", "dark");
+    sessionStorage.setItem("theme", "dark");
+  } else {
+    document.documentElement.setAttribute("color-theme", "light");
+    sessionStorage.setItem("theme", "light");
+  }
+}
+
+toggleSwitch.addEventListener("change", switchTheme, false);

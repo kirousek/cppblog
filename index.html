@@ -11,11 +11,18 @@
   <body>
     <div class="nav">
       <div class="dropdown">
-        <button class="dropbut">C++ Blog</button>
+        <button class="dropbut"><strong>C++ Blog</strong></button>
         <div class="droplist">
-          <a href="./novinky/">Novinky</a>
-          <a href="./blog/">Blog</a>
-          <button id="modebut" class="modebut">Dark Mode</button>
+          <a href="./novinky/"><strong>Novinky</strong></a>
+          <a href="./blog/"><strong>Blog</strong></a>
+          <div class="theme-switch-wrapper">
+            <p><strong>Light</strong></p>
+            <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              <div class="slider round"></div>
+            </label>
+            <p><strong>Dark</strong></p>
+          </div>
         </div>
       </div>
     </div>
@@ -26,11 +33,9 @@
           Co je vlastně C++? C++ je programovací jazyk sám bych to asi neřekl,
           ale je tomu tak. :D C++ vzniklo nevím kdy, ani nevím kdo ho udělal,
           ale co vím je to že C++ vzniklo jako nástupce C, to je taky
-          programovací jazyk btw. A také vím že se C++ využívá dodnes a to třeba
-          ve vývoji AAA pc her atd. jsem línej to všechno jmenovat.
+          programovací jazyk btw.
         </p>
       </div>
-      <hr />
       <div class="novinky">
         <h2>Novinky</h2>
         <div class="widget wrapper">
@@ -40,7 +45,6 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
               corporis eos!
             </p>
-            <br />
             <a href="./novinky/article.html">Zjisti více!</a>
           </div>
           <div class="widget">
@@ -49,12 +53,10 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
               corporis eos!
             </p>
-            <br />
             <a href="./novinky/article.html">Zjisti více!</a>
           </div>
         </div>
       </div>
-      <hr />
       <div class="blog">
         <h2>Blog</h2>
         <div class="widget wrapper">
@@ -64,7 +66,6 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
               corporis eos!
             </p>
-            <br />
             <a href="./blog/article.html">Zjisti více!</a>
           </div>
           <div class="widget">
@@ -73,15 +74,11 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
               corporis eos!
             </p>
-            <br />
             <a href="./blog/article.html">Zjisti více!</a>
           </div>
         </div>
       </div>
-      <hr />
       <h3>Více nalezneš když přejedeš myší po horní liště!</h3>
-      <hr />
-      <footer>Vytvořeno jako školní projekt</footer>
     </div>
     <script src="./js/darkmode.js"></script>
   </body>
