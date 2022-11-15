@@ -5,12 +5,7 @@ var clicks = 0;
 
 if (currentTheme) {
   document.documentElement.setAttribute("color-theme", currentTheme);
-  clicks += 1;
-  if (clicks === 10) {
-    document.documentElement.setAttribute("color-theme", "pink");
-    sessionStorage.setItem("theme", "pink");
-    clicks = 0;
-  } else if (currentTheme === "dark") {
+  if (currentTheme === "dark") {
     toggleSwitch.checked = true;
   }
 } else if (browserTheme.matches) {
@@ -19,7 +14,12 @@ if (currentTheme) {
 }
 
 function switchTheme(event) {
-  if (event.target.checked) {
+  clicks += 1;
+  if (clicks === 10) {
+    document.documentElement.setAttribute("color-theme", "pink");
+    sessionStorage.setItem("theme", "pink");
+    clicks = 0;
+  } else if (event.target.checked) {
     document.documentElement.setAttribute("color-theme", "dark");
     sessionStorage.setItem("theme", "dark");
   } else {
