@@ -15,6 +15,7 @@ if (currentTheme) {
 
 function switchTheme(event) {
   clicks += 1;
+  console.log(clicks);
   if (clicks === 10) {
     document.documentElement.setAttribute("color-theme", "pink");
     sessionStorage.setItem("theme", "pink");
