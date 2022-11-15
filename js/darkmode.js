@@ -1,11 +1,16 @@
 const toggleSwitch = document.getElementById("checkbox");
 const currentTheme = sessionStorage.getItem("theme");
 const browserTheme = window.matchMedia("(prefers-color-scheme: dark)");
+var clicks = 0;
 
 if (currentTheme) {
   document.documentElement.setAttribute("color-theme", currentTheme);
-
-  if (currentTheme === "dark") {
+  clicks += 1;
+  if (clicks === 10) {
+    document.documentElement.setAttribute("color-theme", "pink");
+    sessionStorage.setItem("theme", "pink");
+    clicks = 0;
+  } else if (currentTheme === "dark") {
     toggleSwitch.checked = true;
   }
 } else if (browserTheme.matches) {

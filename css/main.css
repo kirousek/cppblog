@@ -11,6 +11,13 @@ html[color-theme="dark"] {
   --heading-color: #818cab;
 }
 
+html[color-theme="pink"] {
+  --primary-color: #14f300;
+  --font-color: #d8d8f6;
+  --bg-color: #b80071;
+  --heading-color: #cff300;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
