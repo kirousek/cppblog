@@ -78,8 +78,9 @@ a {
 }
 
 .grid-wrapper {
-  grid-column: 2;
+  display: grid;
   grid-row: 1;
+  grid-column: auto;
 }
 
 .nav {
