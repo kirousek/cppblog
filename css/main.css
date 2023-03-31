@@ -209,5 +209,5 @@ input:checked + .slider:before {
 .widget {
   align-items: center;
   justify-content: center;
-  margin: 30px;
+  margin: 15px;
 }
