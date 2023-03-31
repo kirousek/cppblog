@@ -79,7 +79,6 @@ a {
 
 .grid-wrapper {
   display: inline-flex;
-  margin: 50px;
 }
 
 /* Style the footer */
@@ -210,9 +209,5 @@ input:checked + .slider:before {
 .widget {
   align-items: center;
   justify-content: center;
-}
-
-.widget p,
-.widget a {
-  padding-left: 10px;
+  margin: 30px;
 }
