@@ -79,6 +79,7 @@ a {
 
 .grid-wrapper {
   display: inline-flex;
+  margin: 50px;
 }
 
 /* Style the footer */
