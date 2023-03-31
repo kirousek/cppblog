@@ -200,17 +200,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.widget.wrapper {
-  margin: 4px;
-  display: grid;
-  grid-column: 1;
-  grid-row: 3;
-  align-items: center;
-  justify-content: center;
-}
-
 .widget {
-  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
