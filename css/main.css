@@ -83,6 +83,14 @@ a {
   grid-column: auto;
 }
 
+/* Style the footer */
+footer {
+  background-color: rgb(29, 29, 29);
+  padding: 10px;
+  text-align: center;
+  color: #818cab;
+}
+
 .nav {
   align-items: center;
   text-align: center;
