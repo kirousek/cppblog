@@ -1,1 +1,1 @@
-Adam - Popis karet, mezera mezi nadpisem a článkem v novinkách, průhlednost footeru
+Adam - Popis karet, mezera mezi nadpisem a článkem v novinkách, průhlednost footeru, barva nadpisů
