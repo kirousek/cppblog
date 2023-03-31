@@ -78,9 +78,7 @@ a {
 }
 
 .grid-wrapper {
-  display: grid;
-  grid-row: 1;
-  grid-column: auto;
+  display: inline-flex;
 }
 
 /* Style the footer */
