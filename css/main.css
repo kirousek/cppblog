@@ -216,3 +216,22 @@ input:checked + .slider:before {
   background-color: #333;
   color: #f89898;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.item {
+  background-color: #ddd;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
