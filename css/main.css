@@ -83,7 +83,7 @@ a {
 
 /* Style the footer */
 footer {
-  background-color: rgba(29, 29, 29, 0.25);
+  background-color: rgba(204,230,255, 0.25);
   padding: 10px;
   text-align: center;
   color: #818cab;
@@ -223,7 +223,7 @@ input:checked + .slider:before {
 }
 
 .item {
-  background-color: #2a2a23;
+  background-color: #ddd;
   padding: 10px;
   font-size: 1.2rem;
 }
