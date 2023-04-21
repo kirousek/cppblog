@@ -83,7 +83,7 @@ a {
 
 /* Style the footer */
 footer {
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(29, 29, 29, 0,5);
   padding: 10px;
   text-align: center;
   color: #818cab;
