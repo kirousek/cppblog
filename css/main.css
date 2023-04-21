@@ -211,3 +211,8 @@ input:checked + .slider:before {
   justify-content: center;
   margin: 15px;
 }
+
+::selection {
+  background-color: #333;
+  color: #f89898;
+}
