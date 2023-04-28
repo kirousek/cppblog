@@ -47,16 +47,18 @@ function setPink() {
 // Changes color schemes on click
 function switchTheme(event) {
   clicks += 1;
-  console.log(clicks);
 
   if (clicks === 10) {
     setPink();
+    console.log("Pink theme, clicks: " + clicks)
     clicks = 0;
 
   } else if (event.target.checked) {
+    console.log("Dark theme, clicks: " + clicks)
     setDark();
 
   } else {
+    console.log("Light theme, clicks: " + clicks)
     setLight();
 
   }
