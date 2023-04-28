@@ -223,7 +223,7 @@ input:checked + .slider:before {
 }
 
 .item {
-  background-color: #ddd;
+  background-color: rgb(29, 29, 29);
   padding: 10px;
   font-size: 1.2rem;
 }
