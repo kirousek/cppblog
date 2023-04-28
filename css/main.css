@@ -242,3 +242,9 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 997px) {
+  footer {
+    font-size: 50%;  
+  }
+}
