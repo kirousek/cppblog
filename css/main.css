@@ -243,13 +243,13 @@ p {
   }
 }
 
-@media (max-width: 997px) {
+@media (max-width < 997px) {
   footer {
     font-size: 80%;  
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width < 460px) {
   footer {
   font-size: 40%;
   }
