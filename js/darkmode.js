@@ -8,6 +8,7 @@ var clicks = 0;
 function setDefault() {
 
   if (currentTheme) {
+    console.log("Color scheme set from storage")
     document.documentElement.setAttribute("color-theme", currentTheme);
 
     if (currentTheme === "dark") {
