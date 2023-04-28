@@ -248,9 +248,3 @@ p {
     font-size: 80%;  
   }
 }
-
-@media (max-width < 460px) {
-  footer {
-  font-size: 40%;
-  }
-}
