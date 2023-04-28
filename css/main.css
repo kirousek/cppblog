@@ -243,8 +243,14 @@ p {
   }
 }
 
-@media (max-width: 997px) {
+@media (min-width: 997px) {
   footer {
     font-size: 80%;  
+  }
+}
+
+@media (min-width: 412px) {
+  footer {
+  font-size: 80%;
   }
 }
