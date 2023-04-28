@@ -249,8 +249,8 @@ p {
   }
 }
 
-@media (min-width: 412px) {
+@media (min-width: 460px) {
   footer {
-  font-size: 80%;
+  font-size: 40%;
   }
 }
