@@ -1,7 +1,7 @@
 :root {
   --primary-color: rgb(15, 89, 187);
-  --font-color: #d8d8f6;
-  --bg-color: #ffffff;
+  --font-color: #3a3a3a;
+  --bg-color: #9b9b9b;
   --heading-color: #2a2a23;
 }
 html[color-theme="dark"] {
