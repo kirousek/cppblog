@@ -269,7 +269,7 @@ textarea {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
-  border: 1px solid #ccc;
+  border: 1px solid #2b2a2a;
   box-sizing: border-box;
   margin-bottom: 20px;
 }
@@ -285,11 +285,11 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #333;
+  background-color: #f06767;
 }
 
 input[type="submit"]:active {
-  background-color: #f89898;
+  background-color: #181717;
 }
 
 textarea {
