@@ -8,18 +8,23 @@
     <link rel="stylesheet" href="../css/main.css"/>
 </head>
 <body>
-    <div class="nav">
-        <div class="dropdown">
-          <button class="dropbut"><strong><a href="../">C++ Blog</a></strong></button>
-          <div class="droplist">
-            <a href="../novinky/"><strong>Novinky</strong></a>
-            <div class="theme-switch-wrapper">
-              <p><strong>Light</strong></p>
-              <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox" />
-                <div class="slider round"></div>
-              </label>
-              </div>
+  <div class="nav">
+    <div class="dropdown">
+      <button class="dropbut"><strong>C++ Blog</strong></button>
+      <div class="droplist">
+        <a href="./novinky/"><strong>Novinky</strong></a>
+        <a href="./blog/"><strong>Historie</strong></a>
+        <div class="theme-switch-wrapper">
+          <p><strong>Light</strong></p>
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+          </label>
+          <p><strong>Dark</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
     <form>
         <label for="name">Jméno:</label>
         <input type="text" id="name" name="name"><br><br>
@@ -28,7 +33,6 @@
         <label for="message">Vaše zpráva:</label><br>
         <textarea id="message" name="message"></textarea><br><br>
         <input type="submit" value="Odeslat">
-    </form>
-      
+    </form>      
 </body>
 </html>
