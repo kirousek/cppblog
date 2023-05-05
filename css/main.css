@@ -254,7 +254,7 @@ form {
   border: 1px solid #222020;
   padding: 20px;
   max-width: 500px;
-  margin-top: 20px;
+  margin: 0 auto;
 }
 
 label {
