@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $zprava = $_POST['zprava'];
 
 // Nastavte příjemce emailu
-$prijemce = 'tobimichalovsky@gmail.com';
+$prijemce = 'jacobvideos34@gmail.com';
 
 // Nastavte předmět emailu
 $predmet = 'Dotazník z webu';
