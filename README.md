@@ -1,1 +1,1 @@
-negři
+Kemo nevím vůbec co dělám

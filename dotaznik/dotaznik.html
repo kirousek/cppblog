@@ -26,18 +26,27 @@
       </div>
     </div>
   </div>
-  <form method="post" action="dotaznik/php/odeslat.php">
-    <label for="jmeno">Vaše jméno:</label>
-    <input type="text" id="jmeno" name="jmeno">
+  <form>
+    <label for="name">Jméno:</label>
+    <input type="text" id="name" name="name"><br>
   
-    <label for="email">Váš email:</label>
-    <input type="email" id="email" name="email">
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email"><br>
   
-    <label for="zprava">Vaše zpráva:</label>
-    <textarea id="zprava" name="zprava"></textarea>
+    <label for="age">Věk:</label>
+    <input type="number" id="age" name="age"><br>
+  
+    <label for="gender">Pohlaví:</label>
+    <select id="gender" name="gender">
+      <option value="male">Muž</option>
+      <option value="female">Žena</option>
+    </select><br>
+  
+    <label for="feedback">Vaše zpětná vazba:</label>
+    <textarea id="feedback" name="feedback"></textarea><br>
   
     <input type="submit" value="Odeslat">
-  </form>       
+  </form>  
     <script src="../js/darkmode.js"></script> 
     <footer style="position: fixed; bottom: 0; width: 100%;">Pracovali: Jakub Rais, Adam Rebec, Patrik Polýnek a SIR. Tobiáš Michalovský ze SPŠ a VOŠ Jana Palacha 1840, Kladno</footer>
 </body>
