@@ -8,10 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <style>
+      .programmers {
+        display: flex;
+        justify-content: space-between;
+      }
       .programmer {
-        display: inline-block;
+        flex-basis: 30%;
         text-align: center;
-        margin: 20px;
       }
       .programmer img {
         width: 200px;
@@ -41,19 +44,35 @@
     </div>
     <div class="wrapper">
       <div class="novinky">
-        <h1>Something</h1>
-        <div class="programmer">
-          <img src="programmer1.jpg" alt="Programátor 1">
-          <h2>Jakub Rais</h2>
-          <p>"Fullstack Developer"</p>
-          <p>Jakub je fullstack developer se skušenostmi v HTML, CSS a JavaScriptu, nově se učí PHP.</p>
-        </div>
-        <div class="programmer">
-          <img src="programmer2.jpg" alt="Programátor 2">
-          <h2>Patrik Polýnek</h2>
-          <p>"Fullstack Developer"</p>
-          <p>Patrik má bohaté zkušenosti s programováním v HTML, CSS a JavaScriptu.</p>
-        </div>
+        <h1>Naši programátoři</h1>
+        <div class="programmers">
+          <div class="programmer">
+            <img src="programmer1.jpg" alt="Programátor 1">
+            <h2>Jakub Rais</h2>
+            <p>Fullstack Develoer</p>
+            <p>Jakub je fullstack developer se skušenostmi v HTML, CSS a JavaScriptu.</p>
+          </div>
+      
+          <div class="programmer">
+            <img src="programmer2.jpg" alt="Programátor 2">
+            <h2>Patrik Polýnek</h2>
+            <p>Fullstack Developer</p>
+            <p>Páťa má bohaté zkušenosti s programováním v HTML, CSS a JavaScriptu.</p>
+          </div>
+
+          <div class="programmer">
+            <img src="programmer3.jpg" alt="Programátor 3">
+            <h2>Adam Rebec</h2>
+            <p>Frontend Developer</p>
+            <p>Adam je schopný vůdce naší programátorské sekty, má zkušenosti v HTML a CSS.</p>
+          </div>
+
+          <div class="programmer">
+            <img src="programmer4.jpg" alt="Programátor 4">
+            <h2>Tobiáš Michalovský</h2>
+            <p>Frontend Developer</p>
+            <p>Tobiáš je náš frontend developer se skvelými nápady a schopnostmi je zrealizovat v HTML a CSS</p>
+          </div>
       </div>
     </div>
     <script src="../js/darkmode.js"></script>
