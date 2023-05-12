@@ -263,7 +263,7 @@ label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
-  color: #f3f3f3;
+  color: #d8d8f6;
 }
 
 input[type="text"],
@@ -275,6 +275,7 @@ textarea {
   border: 1px solid #2b2a2a;
   box-sizing: border-box;
   margin-bottom: 20px;
+  background-color: #d8d8f6;
 }
 
 input[type="submit"] {
