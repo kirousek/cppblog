@@ -279,7 +279,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #074214;
+  background-color: #f06767;
   color: rgb(29, 29, 29);
   padding: 12px 20px;
   border: none;
@@ -289,7 +289,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #f06767;
+  background-color: #47cdee;
 }
 
 input[type="submit"]:active {
