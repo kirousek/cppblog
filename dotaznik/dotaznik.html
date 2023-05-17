@@ -7,7 +7,6 @@
     <title>C++ Blog</title>
     <link rel="stylesheet" href="../css/main.css"/>
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
-    <link rel="script" href="./js/send.js"
 </head>
 <body>
   <div class="nav">
@@ -43,3 +42,18 @@
     <footer style="position: fixed; bottom: 0; width: 100%;">Pracovali: Jakub Rais, Adam Rebec, Patrik Polýnek a SIR. Tobiáš Michalovský ze SPŠ a VOŠ Jana Palacha 1840, Kladno</footer>
 </body>
 </html>
+
+<script lang="js">
+  const form  = document.getElementById('form');
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const jmeno = document.getElementById("jmeno").value;
+    const email = document.getElementById("email").value;
+    const zprava = document.getElementById("feedback").value;
+
+    window.open("mailto:jacobvideos34@gmail.com?subject=Dotazník%20-%20"+jmeno+"&body="+email+"%0A"+zprava, "_blank");
+
+  });
+</script>
