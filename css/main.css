@@ -88,6 +88,11 @@ footer {
   text-align: center;
   color: #818cab;
 }
+@media only screen and (max-width: 1150px) {
+  footer {
+    height: 50px;
+
+}
 
 .nav {
   align-items: center;
