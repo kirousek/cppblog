@@ -75,7 +75,7 @@ a {
 .wrapper {
   margin: 16px;
   text-align: center;
-  padding-bottom: 100px;
+  
 }
 
 .grid-wrapper {
@@ -85,7 +85,7 @@ a {
 /* Style the footer */
 footer {
   background-color: rgba(204,230,255, 0.25);
-  height: 10px;
+  height: 50px;
   text-align: center;
   color: #818cab;
 }
