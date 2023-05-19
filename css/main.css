@@ -83,11 +83,13 @@ a {
 
 /* Style the footer */
 footer {
-  background-color: rgba(204,230,255, 0.25);
-  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px; /* Přizpůsobte výšku podle potřeby */
+  background-color: rgba(204, 230, 255, 0.25);
   text-align: center;
   color: #818cab;
-  margin-bottom: 25px;
 }
 
 .nav {
