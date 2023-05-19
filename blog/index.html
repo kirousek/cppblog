@@ -8,13 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <style>
+      .widget {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+    
       .widget img {
         max-width: 100%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    
+      .widget p {
+        margin: 0;
       }
     
       @media only screen and (max-width: 1150px) {
+        .widget {
+          flex-direction: column;
+        }
+    
         .widget img {
-          max-width: 80%;
+          margin-right: 0;
         }
       }
     </style>
