@@ -7,22 +7,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .programmer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .programmer img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .programmer h2 {
+      margin-top: 10px;
+    }
+
+    .programmer p {
+      margin-bottom: 5px;
+    }
+
+    @media only screen and (min-width: 768px) {
       .programmers {
         display: flex;
         justify-content: space-between;
       }
+
       .programmer {
-        flex-basis: 30%;
-        text-align: center;
+        width: 45%;
+        margin-bottom: 0;
       }
-      .programmer img {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 50%;
-      }
-    </style>
+    }
+  </style>
   </head>
   <body>
     <div class="nav">
