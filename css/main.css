@@ -75,6 +75,7 @@ a {
 .wrapper {
   margin: 16px;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .grid-wrapper {
@@ -84,7 +85,7 @@ a {
 /* Style the footer */
 footer {
   background-color: rgba(204,230,255, 0.25);
-  padding: 10px;
+  height: 10px;
   text-align: center;
   color: #818cab;
 }
@@ -300,3 +301,6 @@ textarea {
   height: 150px;
   background-color: #d8d8f6;
 }  
+.last-element {
+  margin-bottom: 60px;
+}
