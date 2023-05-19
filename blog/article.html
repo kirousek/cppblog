@@ -8,42 +8,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .programmer {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .programmer img {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 50%;
-    }
-
-    .programmer h2 {
-      margin-top: 10px;
-    }
-
-    .programmer p {
-      margin-bottom: 5px;
-    }
-
-    @media only screen and (min-width: 768px) {
+    <style>
       .programmers {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
       }
-
+  
       .programmer {
-        width: 45%;
-        margin-bottom: 0;
+        flex-basis: 45%;
+        text-align: center;
+        margin-bottom: 20px;
       }
-    }
-  </style>
+  
+      .programmer img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+  
+      .programmer h2 {
+        margin-top: 10px;
+      }
+  
+      .programmer p {
+        margin-bottom: 5px;
+      }
+  
+      @media only screen and (max-width: 768px) {
+        .programmer {
+          flex-basis: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="nav">
