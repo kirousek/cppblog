@@ -2,7 +2,7 @@
   --primary-color: #818cab;
   --font-color: #3f3f3f;
   --bg-color: #f3f3f3;
-  --heading-color: #818cab;
+  --heading-color: #3c3d41;
 }
 html[color-theme="dark"] {
   --primary-color: #f89898;
