@@ -89,6 +89,12 @@ footer {
   text-align: center;
   color: #818cab;
 }
+
+footer p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
 .nav {
   align-items: center;
   text-align: center;
