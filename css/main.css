@@ -85,14 +85,9 @@ a {
 /* Style the footer */
 footer {
   background-color: rgba(204,230,255, 0.25);
-  height: 50px;
+  height: auto;
   text-align: center;
   color: #818cab;
-}
-
-footer p {
-  margin: 0;
-  padding-bottom: 10px;
 }
 
 .nav {
