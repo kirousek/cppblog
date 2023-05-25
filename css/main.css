@@ -220,7 +220,7 @@ input:checked + .slider:before {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 .item {
@@ -238,7 +238,7 @@ p {
   margin-bottom: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
