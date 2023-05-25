@@ -244,7 +244,7 @@ p {
   }
 }
 
-@media (max-width: 510px) {
+@media (max-width: 640px) {
   footer {
     font-size: 70%;  
   }
