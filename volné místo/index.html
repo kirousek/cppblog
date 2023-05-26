@@ -17,18 +17,25 @@
         }
     </style>
     <script>
-        window.onload = function() {
-            function updateClock() {
-                var now = new Date();
-                var hours = now.getHours();
-                var minutes = now.getMinutes();
-                var seconds = now.getSeconds();
-                var timeString = hours + ':' + minutes + ':' + seconds;
-                document.getElementById('clock').textContent = timeString;
-            }
-
-            setInterval(updateClock, 1000);
-        };
+      function updateClock() {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds();
+        
+        // Přidává nulu před hodnotu, pokud je menší než 10 (např. 09:05:02 místo 9:5:2)
+        hours = ("0" + hours).slice(-2);
+        minutes = ("0" + minutes).slice(-2);
+        seconds = ("0" + seconds).slice(-2);
+        
+        var timeString = hours + ":" + minutes + ":" + seconds;
+        
+        // Najde element s id "clock" a aktualizuje jeho obsah na aktuální čas
+        document.getElementById("clock").textContent = timeString;
+      }
+      
+      // Spustí funkci updateClock každou sekundu
+      setInterval(updateClock, 1000);
     </script>
 </head>
 <body>
