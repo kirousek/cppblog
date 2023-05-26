@@ -34,19 +34,8 @@
             text-align: center;
             margin: 100px auto;
         }
-    </style>
-    <script>
-        function updateClock() {
-            var now = new Date();
-            var hours = now.getHours();
-            var minutes = now.getMinutes();
-            var seconds = now.getSeconds();
-            var timeString = hours + ':' + minutes + ':' + seconds;
-            document.getElementById('clock').textContent = timeString;
-        }
-
-        setInterval(updateClock, 1000);
-    </script>
+      </style>
+      <script src="../js/hodiny.js"></script>
       <script src="../js/darkmode.js"></script> 
     <footer style="position: fixed; bottom: 0; width: 100%;">Pracovali: Jakub Rais, Adam Rebec, Patrik Polýnek a SIR. Tobiáš Michalovský ze SPŠ a VOŠ Jana Palacha 1840, Kladno</footer>
 </body>
