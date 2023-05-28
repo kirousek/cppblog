@@ -42,7 +42,7 @@ body {
   background-color: var(--bg-color);
   color: var(--font-color);
   font-size: calc(1.25rem + 0.25vh);
-  cursor: url('/css/cursor.png'),auto;
+  cursor: url('/css/cursor.png'), auto;
 }
 
 p {
