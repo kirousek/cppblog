@@ -306,3 +306,7 @@ textarea {
 .last-element {
   margin-bottom: 60px;
 }
+
+a:hover {
+  cursor: url(/css/pointer_cursor.png), auto;
+}
