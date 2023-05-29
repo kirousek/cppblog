@@ -310,3 +310,7 @@ textarea {
 a:hover {
   cursor: url(/css/pointer_cursor.png), auto;
 }
+
+.dropdown:hover {
+  cursor: url(/css/pointer_cursor.png), auto;
+}
