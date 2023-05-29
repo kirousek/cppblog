@@ -307,10 +307,6 @@ textarea {
   margin-bottom: 60px;
 }
 
-a:hover {
-  cursor: url(/css/pointer_cursor.png), auto;
-}
-
-.dropbut:hover {
+a,.slider.round,.dropbut:hover {
   cursor: url(/css/pointer_cursor.png), auto;
 }
