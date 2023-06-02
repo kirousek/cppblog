@@ -39,11 +39,16 @@
         margin-top: 20px;
       }
 
-      @media only screen and (max-width: 1150px) {
-    
-        .widget img {
-          margin-right: 0;
+      @media only screen and (min-width: 1151px) {
+        .widget {
+          flex-direction: row;
           align-items: center;
+          justify-content: center;
+        }
+
+        .widget img {
+          margin-right: 10px;
+          margin-bottom: 0;
         }
       }
     </style>
