@@ -3,7 +3,7 @@ const currentTheme = sessionStorage.getItem("theme");
 const browserTheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 var clicks = 0;
-
+  
 // Sets color scheme based on default browser settings
 function setDefault() {
 
