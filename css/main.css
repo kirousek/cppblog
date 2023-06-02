@@ -42,7 +42,7 @@ body {
   background-color: var(--bg-color);
   color: var(--font-color);
   font-size: calc(1.25rem + 0.25vh);
-  cursor: url(/css/cursor.png), auto;
+  cursor: url(/photos/cursor.png), auto;
 }
 
 p {
@@ -308,5 +308,5 @@ textarea {
 }
 
 a,.slider.round,.dropbut:hover {
-  cursor: url(/css/pointer_cursor.png), auto;
+  cursor: url(/photos/pointer_cursor.png), auto;
 }
