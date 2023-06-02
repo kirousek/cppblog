@@ -310,3 +310,8 @@ textarea {
 a,.slider.round,.dropbut:hover {
   cursor: url(/css/pointer_cursor.png), auto;
 }
+
+.bjarne-img {
+  max-width: 100%;
+  height: auto;
+}
