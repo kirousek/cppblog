@@ -19,9 +19,8 @@
     width: 150px; /* nastavte šířku dle potřeby */
     height: 150px;/* nastavte výšku dle potřeby */
   }
-
-  .carousel img {
-    max-width: 100%;
-    max-height: 100%;
-  }
+}
+.carousel img {
+  max-width: 100%;
+  max-height: 100%;
 }
