@@ -1,3 +1,7 @@
+.carousel {
+  display: none; /* Výchozí stav - skryté */
+}
+
 @media only screen and (min-width: 650px) {
   .carousel {
     position: fixed;
