@@ -310,16 +310,3 @@ textarea {
 a,.slider.round,.dropbut:hover {
   cursor: url(/css/pointer_cursor.png), auto;
 }
-.timeline-heading {
-  margin-top: 30px;
-}
-
-@media only screen and (max-width: 480px) {
-  .centered {
-    height: auto;
-  }
-
-  .timeline-heading {
-    margin-top: 10px;
-  }
-}
