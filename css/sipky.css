@@ -1,4 +1,5 @@
-.carousel {
+@media only screen and (min-width: 650px) {
+  .carousel {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
@@ -7,19 +8,20 @@
     justify-content: space-between;
   }
 
-.carousel a {
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px; /* nastavte šířku dle potřeby */
-  height: 150px;/* nastavte výšku dle potřeby */
-}
+  .carousel a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px; /* nastavte šířku dle potřeby */
+    height: 150px;/* nastavte výšku dle potřeby */
+  }
 
-.carousel img {
-  max-width: 100%;
-  max-height: 100%;
+  .carousel img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
